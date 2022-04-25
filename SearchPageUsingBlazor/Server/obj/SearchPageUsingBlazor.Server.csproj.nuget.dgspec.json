@@ -1,0 +1,243 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Server\\SearchPageUsingBlazor.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Client\\SearchPageUsingBlazor.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Client\\SearchPageUsingBlazor.Client.csproj",
+        "projectName": "SearchPageUsingBlazor.Client",
+        "projectPath": "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Client\\SearchPageUsingBlazor.Client.csproj",
+        "packagesPath": "C:\\Users\\dhana\\.nuget\\packages\\",
+        "outputPath": "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dhana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Shared\\SearchPageUsingBlazor.Shared.csproj": {
+                "projectPath": "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Shared\\SearchPageUsingBlazor.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.14, )"
+            },
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Syncfusion.Blazor.Grid": {
+              "target": "Package",
+              "version": "[20.1.0.50, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.14, 5.0.14]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Server\\SearchPageUsingBlazor.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Server\\SearchPageUsingBlazor.Server.csproj",
+        "projectName": "SearchPageUsingBlazor.Server",
+        "projectPath": "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Server\\SearchPageUsingBlazor.Server.csproj",
+        "packagesPath": "C:\\Users\\dhana\\.nuget\\packages\\",
+        "outputPath": "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dhana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Client\\SearchPageUsingBlazor.Client.csproj": {
+                "projectPath": "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Client\\SearchPageUsingBlazor.Client.csproj"
+              },
+              "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Shared\\SearchPageUsingBlazor.Shared.csproj": {
+                "projectPath": "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Shared\\SearchPageUsingBlazor.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[5.0.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Shared\\SearchPageUsingBlazor.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Shared\\SearchPageUsingBlazor.Shared.csproj",
+        "projectName": "SearchPageUsingBlazor.Shared",
+        "projectPath": "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Shared\\SearchPageUsingBlazor.Shared.csproj",
+        "packagesPath": "C:\\Users\\dhana\\.nuget\\packages\\",
+        "outputPath": "C:\\Priyanka\\Projects\\Projects\\IVATestProject\\SearchPageUsingBlazor\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dhana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
